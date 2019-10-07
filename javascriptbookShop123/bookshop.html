@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>sizing in Bootstrap4</title>
+</head>
+<body>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <!-----------display amount------------------>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h2 class="display-5" id="Display-Book-Name"></h2>
+                    </div>
+                    <div class="card-body bg-danger text-dark font-weight-bold">
+                        <h2 id="disp-book-price" class="text-light"></h2>
+                    </div>
+                </div>
+            </div>
+            <!-----------display checkbox options------------------>
+            <div class="col-md-4">
+                <div class="card">
+                    <table class="table" id="table-one" border="all">
+                        <thead class="bg-dark">
+                            <th class="text-light">Name</th>
+                            <th class="text-light">Price</th>
+                        </thead>
+                        <tbody id="disp-checkbox-data" class="bg-danger text-center text-light">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-----------display Total amount------------------>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h2 class="display-5" id="total-amount">Total Amount</h2>
+                    </div>
+                    <div class="card-body bg-danger text-dark font-weight-bold">
+                        <h2 id="9" class="text-light"></h2>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <!---------------book1------------------>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="display-5"></h2>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/13.jpg" class="align-items-center img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <h3 id="book1name">Book one</h3>
+                        <input type="radio" id="book1" value="500" name="book">&#8377 500
+                    </div>
+                </div>
+            </div>
+            <!---------------book2------------------>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="display-5"></h2>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/12.jpg" class="align-items-center img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <h3 id="book2name">Book Two</h3>
+                        <input type="radio" id="book2" value="800" name="book">&#8377 800
+                    </div>
+                </div>
+            </div>
+            <!---------------book3------------------>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="display-5"></h2>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/13.jpg" class="align-items-center img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <h3 id="book3name">Book Three</h3>
+                        <input type="radio" id="book3" value="700" name="book">&#8377 700
+                    </div>
+                </div>
+            </div>
+            <!---------------book4------------------>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="display-5"></h2>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/14.jpg" class="align-items-center img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <h3 id="book4name">Book Four</h3>
+                        <input type="radio" id="book4" value="300" name="book">&#8377 300
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h2></h2>
+                    </div>
+                    <div class="card-body ">
+
+                        <input type="checkbox" value="50" id="checkbox-pen">Pen
+                        <br>
+                        <input type="checkbox" value="20" id="checkbox-pencil">Pencil
+                        <br>
+                        <input type="checkbox" value="100" id="checkbox-book-cover">Book Cover
+                        <br>
+                        <input type="checkbox" value="200" id="checkbox-stickers">Stickers
+                    </div>
+                    <div class="card-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+
+<!-- BODY ENDS -->
+<script src="jquery-3.4.1.js"></script>
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+<script src="bookShop.js"></script>
+</body>
+</html>
